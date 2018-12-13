@@ -215,10 +215,16 @@ CSS代码:
 }
 ```
 **vertical-align相关:**<br>
+[**CSS垂直居中的11种实现方式**](http://www.cnblogs.com/zhouhuan/p/vertical_center.html)<br>
 [CSS深入理解vertical-align和line-height的基友关系 ](https://www.zhangxinxu.com/wordpress/2015/08/css-deep-understand-vertical-align-and-line-height/)<br>
 [深入理解css中vertical-align属性- 博客园](http://www.cnblogs.com/starof/p/4512284.html?utm_source=tuicool&utm_medium=referral)
 
 ##### 11. 使用 display 和 vertical-align 对容器里的文字进行垂直居中
+```html
+<div id="box">
+    <div id="child">我也是一段测试文本</div>
+</div>
+```
 ```CSS
 #box {
     width: 300px;
